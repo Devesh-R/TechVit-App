@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494083613308",
+    "project_id": "exposys-internship-ed37d",
+    "storage_bucket": "exposys-internship-ed37d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494083613308:android:bed9a10976427409025ff9",
+        "android_client_info": {
+          "package_name": "com.dv19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494083613308-rcnds1fbn3oncl72qlm2jpp80p5mbj62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFw_2jwOPEENIea-HgEGCCWaqI077KjLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494083613308-rcnds1fbn3oncl72qlm2jpp80p5mbj62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

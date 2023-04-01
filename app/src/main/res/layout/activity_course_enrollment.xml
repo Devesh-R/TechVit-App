@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseEnrollment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#12609E"
+        android:text="Enroll for this course"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="20dp"
+        app:cornerRadius="5dp"
+        android:layout_marginTop="20dp"
+       />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollview"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/enroll"
+        >
+
+       <RelativeLayout
+           android:padding="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/courseimg"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:layout_marginHorizontal="40dp"
+               android:adjustViewBounds="true"
+               android:scaleType="fitXY"
+               android:src="@drawable/ic_launcher_background"
+               />
+
+           <TextView
+               android:id="@+id/cname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/courseimg"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="5dp"
+               android:textColor="#12609E"
+               android:text="App Development"
+               android:fontFamily="serif"
+               android:textSize="26sp"
+               android:textStyle="bold"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+               android:layout_below="@id/cname"
+               android:gravity="start"
+               android:text="1. Design the poster that helps you to promote company products or Services.
+2. Use case: Design Exposys Data Labs Virtual Internship Posters With different domains
+with attractive contents.
+3. Domains Like Data Science,FrontEnd Developer,BackEnd Developer Full Stack
+Developer UIUX Design Etc…….."
+               android:textSize="16sp"
+               android:id="@+id/shortdesc"/>
+
+           <TextView
+               android:id="@+id/txt1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Project Description :"
+               android:layout_below="@id/shortdesc"
+               android:textSize="20sp"
+               android:textColor="@color/black"
+               android:layout_marginLeft="20sp"
+               android:fontFamily="sans-serif-condensed-medium"
+               />
+
+           <TextView
+               android:id="@+id/longdesc"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txt1"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="20dp"
+               android:gravity="start"
+               android:layout_marginEnd="20dp"
+               android:text="hello"
+               android:textSize="17sp"
+               android:layout_marginBottom="10dp" />
+       </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
